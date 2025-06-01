@@ -1,0 +1,150 @@
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0f172a;
+  padding: 4rem 2rem;
+  color: white;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.contact-left {
+  flex: 1;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-left input,
+.contact-left textarea {
+  background-color: #10151f;
+  border: 1px solid #333;
+  color: white;
+  padding: 0.75rem;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.contact-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.send-button {
+  background-color: #2d3bfa;
+  color: white;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.contact-right {
+  flex: 1;
+  min-width: 280px;
+}
+
+.contact-us-btn {
+  background: none;
+  border: 1px solid white;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  margin-bottom: 1rem;
+}
+
+.contact-right h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.contact-right span {
+  color: #2d3bfa;
+}
+
+.contact-right p {
+  color: #aaa;
+  max-width: 300px;
+}
+
+/* Footer Styles */
+.footer {
+  background: #0f172a;
+  color: white;
+  padding: 3rem 2rem;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-logo img {
+  width: 80px;
+}
+
+.newsletter h4 {
+  margin-bottom: 1rem;
+}
+
+.newsletter-form {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.newsletter-form input {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #10151f;
+  color: white;
+}
+
+.newsletter-form button {
+  background-color: #2d3bfa;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.footer-links h4 {
+  margin-bottom: 0.5rem;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 0.5rem;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.footer-bottom {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-top: 1px solid #333;
+  padding-top: 1rem;
+  gap: 0.5rem;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.socials .icons i {
+  margin: 0 0.5rem;
+  cursor: pointer;
+}

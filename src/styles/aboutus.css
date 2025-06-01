@@ -1,0 +1,75 @@
+.aboutus-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 70px;
+  align-items: center;
+  padding: 40px;
+  background: linear-gradient(to bottom right, #0a0f2c, #0e142e);
+  border-radius: 16px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  color: #ccc;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.aboutus-content {
+  flex: 1;
+  max-width: 60%;
+}
+
+.aboutus-button {
+  background-color: #111;
+  color: #ccc;
+  padding: 6px 16px;
+  border-radius: 20px;
+  border: none;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.aboutus-heading {
+  font-size: 36px;
+  margin: 0;
+  color: white;
+}
+
+.aboutus-description {
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 20px 0;
+}
+
+.aboutus-mission {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 30px;
+}
+
+.mission-icon {
+  font-size: 32px;
+}
+
+.mission-title {
+  font-size: 28px;
+  color: white;
+  margin: 0;
+}
+
+.mission-text {
+  margin-top: 12px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.aboutus-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  padding-left: 40px;
+}   
+
+.aboutus-image img {
+  max-width: 100%;
+  border-radius: 10px;
+}

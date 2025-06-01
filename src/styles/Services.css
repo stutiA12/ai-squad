@@ -1,0 +1,57 @@
+.services-section {
+  text-align: center;
+  padding: 3rem 2rem;
+  background-color:  #0f172a;
+  color: white;
+}
+
+.section-tag {
+  background-color: #1a1a1a;
+  color: #ccc;
+  border: none;
+  border-radius: 16px;
+  padding: 6px 16px;
+  margin-bottom: 1rem;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.section-subtitle {
+  max-width: 700px;
+  margin: 1rem auto 2rem;
+  color: #aaa;
+}
+
+.service-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.service-card {
+  background-color: #121212;
+  padding: 1rem;
+  border-radius: 12px;
+  width: 300px;
+  border: 1px solid #2c2c2c;
+}
+
+.service-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.service-card h3 {
+  font-size: 1.1rem;
+  margin-top: 0.8rem;
+}
+
+.service-card p {
+  color: #aaa;
+  font-size: 0.9rem;
+}

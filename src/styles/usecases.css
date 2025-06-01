@@ -1,0 +1,65 @@
+.usecases-section {
+  text-align: center;
+  padding: 3rem 2rem;
+  background-color: #0f172a;
+  color: white;
+}
+
+.section-tag {
+  background-color: #1a1a1a;
+  color: #ccc;
+  border: none;
+  border-radius: 16px;
+  padding: 6px 16px;
+  margin-bottom: 1rem;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.section-subtitle {
+  max-width: 700px;
+  margin: 1rem auto 2rem;
+  color: #aaa;
+}
+
+.usecases-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.usecase-card {
+  background-color: #121212;
+  border: 1px solid #2a2a2a;
+  border-radius: 12px;
+  padding: 1.5rem;
+  width: 320px;
+  text-align: left;
+  color: #fff;
+  position: relative;
+  transition: transform 0.2s ease;
+}
+
+.usecase-card:hover {
+  transform: translateY(-5px);
+}
+
+.usecase-card .icon {
+  font-size: 1.8rem;
+  color: #66aaff;
+  margin-bottom: 1rem;
+}
+  
+.usecase-card h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.usecase-card p {
+  font-size: 0.9rem;
+  color: #bbb;
+}

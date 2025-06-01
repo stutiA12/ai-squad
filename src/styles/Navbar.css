@@ -1,0 +1,66 @@
+header {
+    width: 1440px;
+    height: 88px;
+    backdrop-filter: blur(27.6px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+header h3 {
+    font-size: 24px;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* center the links */
+    flex: 1; /* allow nav to take available space */
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    font: Inter;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: #153AA1; /* optional: highlight links on hover */
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* space between Sign In and Sign Up buttons */
+}
+
+.buttons button {
+    width: 96px;
+    height: 38px;
+    border-radius: 10px;
+    background-color: #153AA1; /* button color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buttons button:hover {
+    background-color: #102c7a; /* darker shade on hover */
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 60px; /* adjust this as needed */
+    width: auto;
+    margin-right: 10px;
+}
