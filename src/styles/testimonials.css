@@ -1,3 +1,4 @@
+
 .testimonials-section {
   background-color: #0f172a;
   color: white;
@@ -40,12 +41,22 @@
   max-width: 350px;
   text-align: left;
   opacity: 0.4;
-  transition: opacity 0.3s, border 0.3s;
+  transition: opacity 0.3s, border 0.3s, transform 0.3s, box-shadow 0.3s;
 }
+
 
 .testimonial-card.active {
   border: 1px solid #2d3bfa;
   opacity: 1;
+}
+
+
+.testimonial-card:hover {
+  border: 1px solid #4f46e5;
+  opacity: 1;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
 }
 
 .testimonial-card h4 {
@@ -78,3 +89,4 @@
   color: #fff;
   font-weight: 500;
 }
+
