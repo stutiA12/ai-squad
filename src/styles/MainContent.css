@@ -1,22 +1,17 @@
-
-
 .main-container {
-  padding: 40px;
-  /* background: linear-gradient(to bottom right, #0f172a, #1e293b); */
-  /* background-color:  #0f172a; */
+  padding: 40px 20px;
   color: white;
   text-align: center;
   max-width: 800px;
   margin: 10px auto;
   position: relative;
-  /* box-shadow: 0 0 15px rgba(0, 191, 255, 0.2); */
 }
 
 .platform-tag {
   background-color: #1e1e1e;
   color: #ffffff;
   font-size: 12px;
-  padding: 6px 14px;
+  padding: 10px 12px;
   border-radius: 20px;
   display: inline-block;
   margin-bottom: 20px;
@@ -54,4 +49,42 @@
 
 .get-started-btn:hover {
   background-color: #1e40af;
+}
+
+@media (max-width: 768px) {
+  .main-heading {
+    font-size: 48px;
+  }
+
+  .main-description {
+    font-size: 16px;
+    padding: 0 10px;
+  }
+
+  .get-started-btn {
+    width: 100%;
+    max-width: 300px;
+    font-size: 15px;
+    height: auto;
+    padding: 12px 20px;
+  }
+
+  .platform-tag {
+    font-size: 11px;
+    padding: 8px 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-heading {
+    font-size: 36px;
+  }
+
+  .main-description {
+    font-size: 15px;
+  }
+
+  .get-started-btn {
+    font-size: 14px;
+  }
 }

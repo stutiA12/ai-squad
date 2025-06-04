@@ -6,28 +6,40 @@ const ContactFooter = () => {
   return (
     <>
       <section className="contact-section">
-        <div className="contact-left">
-          <input type="text" placeholder="Full Name" />
-          <div className="contact-row">
-            <input type="text" placeholder="Mobile Number" />
-            <input type="email" placeholder="Email Address" />
-          </div>
-          <textarea placeholder="Message" rows={4}></textarea>
-          <button className="send-button">Send Message</button>
+        {/* Top Contact Us Button */}
+        <div className="contact-top-button">
+          <button className="contact-us-btn">Contact Us</button>
         </div>
 
-        <div className="contact-right">
-          <button className="contact-us-btn">Contact Us</button>
-          <h2>Get Started With <span>My AI Squad.</span></h2>
-          <p>Answer a couple of questions to make sure your business is a good fit.</p>
+        {/* Contact Form and Info */}
+        <div className="contact-content">
+          <div className="contact-left">
+            <input type="text" placeholder="Full Name" />
+            <div className="contact-row">
+              <input type="text" placeholder="Mobile Number" />
+              <input type="email" placeholder="Email Address" />
+            </div>
+            <textarea placeholder="Message" rows={4}></textarea>
+            <button className="send-button">Send Message</button>
+          </div>
+
+          <div className="contact-right">
+            <h2>
+              Get Started With <span>My AI Squad.</span>
+            </h2>
+            <p>
+              Answer a couple of questions to make sure your business is a good fit.
+            </p>
+          </div>
         </div>
       </section>
 
       <footer className="footer">
         <div className="footer-top">
           <div className="footer-logo">
-            <img src={logo} alt="AI Squad" /> 
+            <img src={logo} alt="AI Squad" />
           </div>
+
           <div className="newsletter">
             <h4>Subscribe for our newsletter</h4>
             <div className="newsletter-form">
@@ -35,6 +47,7 @@ const ContactFooter = () => {
               <button>Subscribe</button>
             </div>
           </div>
+
           <div className="footer-links">
             <h4>Useful Links</h4>
             <ul>
@@ -45,6 +58,7 @@ const ContactFooter = () => {
               <li>Contact Us</li>
             </ul>
           </div>
+
           <div className="footer-links">
             <h4>Useful Information’s</h4>
             <ul>
@@ -54,6 +68,7 @@ const ContactFooter = () => {
             </ul>
           </div>
         </div>
+
         <div className="footer-bottom">
           <div className="socials">
             <span>Follow Us on</span>

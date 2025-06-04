@@ -16,7 +16,6 @@ import ContactFooter from './components/ContactFooter';
 function App() {
     return (
         <div className="app-container">
-            {/* <img src={frame} alt="Frame Background" className="background-frame" /> */}
             <Navbar />
             <MainContainer />
             <AboutUs />
